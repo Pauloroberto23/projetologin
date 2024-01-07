@@ -42,9 +42,9 @@ section#login{
     
 }
 
- section#login > #imagem{
+section#login > div#imagem{
     
-background-color: #5f2c82 url(../imagens/pexels-pixabay-161154.jpg);
+    background: url(../imagens/pexels-pixabay-161154.jpg)no-repeat;
     background-size: cover;
     height: 200px;
 
@@ -67,11 +67,19 @@ div#formulario > p {
 
 form > div.campo{
     background-color: #6a9c5e;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 div.campo > label{
     display: none;
 } 
+
+form > div.senha{
+    background-color: #3aac5e;
+    border-radius: 5px;
+    padding: 2px;
+}
 
 form > input[type=submit]{
     display: block;
