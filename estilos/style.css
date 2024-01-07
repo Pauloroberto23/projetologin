@@ -37,9 +37,12 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 0px 10px rgb(0,0,0.450) ;
+
+    transition: width .3s,height .3s;
+    
 }
 
-div#imagem{
+ section#login > #imagem{
     
 background-color: #5f2c82 url(../imagens/pexels-pixabay-161154.jpg);
     background-size: cover;
